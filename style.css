@@ -1,0 +1,100 @@
+/* Configuración General y Tipografía (Criterio 13) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6; /* Fondo suave para coherencia visual */
+}
+
+/* 9. CSS Externo Vinculado (Criterio 9) */
+header {
+    background-color: #1a2a44; /* Color oscuro profesional */
+    color: #ffffff;
+    padding: 1rem 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* 10. Uso de Flexbox en Navbar (Criterio 10) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaciado armónico */
+}
+
+.logo-container img {
+    border-radius: 50%; /* Estilo para el logo circular */
+    object-fit: cover;
+}
+
+/* Estilos de Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff7e5f; /* Efecto hover para interactividad */
+}
+
+/* Sección Hero Inicial (Referencia Imagen Pág 6) */
+#hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #1a2a44 0%, #2a4a7d 100%);
+    color: white;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* 12. Diseño Responsive - Tablet (Criterio 12) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    #hero h1 {
+        font-size: 2rem;
+    }
+}
+
+/* 12. Diseño Responsive - Móvil (Criterio 12) */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -188,42 +188,91 @@ td {
 .competencias {
     margin-top: 40px;
 }
-
 .competencias h3 {
     color: #028090;
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
-
 .competencias ul {
     list-style-type: none;
     padding-left: 20px;
 }
-
 .competencias li {
     font-size: 1.1rem;
     color: #333;
     margin-bottom: 10px;
 }
-
 .ruta-aprendizaje {
     margin-top: 40px;
 }
-
 .ruta-aprendizaje h3 {
     color: #028090;
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
-
 .ruta-aprendizaje ol {
     padding-left: 20px;
 }
-
 .ruta-aprendizaje li {
     font-size: 1.1rem;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 10px;}
+#proyectos {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(80, 80, 80, 0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+#proyectos h2 {
+    color: #028090;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#proyectos p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+figure {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+figure img:hover {
+    transform: scale(1.05); 
+}
+figcaption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #028090;
+}
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #028090;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #fd3908; 
 }

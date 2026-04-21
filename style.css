@@ -22,7 +22,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-} porfi
+}
 .logo-container {
     display: flex;
     align-items: center;
@@ -121,4 +121,109 @@ nav ul li a:hover {
 }
 .datos-personales li strong {
     color: #028090;
+}
+#habilidades {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+#habilidades h2 {
+    color: #028090;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#habilidades p {
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+th {
+    background-color: #028090;
+    color: white;
+    font-weight: bold;
+}
+td {
+    background-color: #f9f9f9;
+}
+.progress-bar {
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.html5 {
+    width: 90%;
+    background-color: #38BDF8;
+}
+.css3 {
+    width: 75%;
+    background-color: #38BDF8;
+}
+.javascript {
+    width: 60%;
+    background-color: #38BDF8;
+}
+.git {
+    width: 65%;
+    background-color: #38BDF8;
+}
+.react {
+    width: 50%;
+    background-color: #38BDF8;
+}
+.competencias {
+    margin-top: 40px;
+}
+
+.competencias h3 {
+    color: #028090;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.competencias ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.competencias li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ruta-aprendizaje {
+    margin-top: 40px;
+}
+
+.ruta-aprendizaje h3 {
+    color: #028090;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ruta-aprendizaje ol {
+    padding-left: 20px;
+}
+
+.ruta-aprendizaje li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
 }
